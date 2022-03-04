@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f1f1;
+  height: auto;
+}
+nav {
+  width: 100%;
+  height: 57px;
+  background: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+}
+.nav-container1 {
+  margin-left: 20px;
+}
+.nav-container2 {
+  margin-right: 20px;
+}
+.nav-container1,
+.nav-container2 {
+  width: 188px;
+  height: 15px;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.buttomNav {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  justify-content: space-between;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.buttomNav2 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  justify-content: space-between;
+  display: inline-block;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.logoTittle {
+  color: #ffffff;
+  font-family: "Impact", sans-serif;
+  font-style: normal;
+  font-size: 23px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.ImgPrincipal {
+  margin-top: 57px;
+  width: 100%;
+  height: 493px;
+}
+.BROWSE {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 64px;
+}
+.cards {
+  width: 100%;
+  height: 565px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-top: 64px;
+}
+.rectangle1,
+.rectangle2,
+.rectangle3,
+.rectangle4 {
+  width: 100%;
+  height: 373px;
+}
+
+.butttomShop1,
+.butttomShop2,
+.butttomShop3,
+.butttomShop4 {
+  width: 150px;
+  height: 40px;
+  background-color: #000;
+  color: #ffffff;
+  font-size: 12px;
+  margin: auto;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+}
+.containerSHOP1 {
+  width: 298px;
+  height: 464px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.line {
+  width: 100%;
+  height: 0;
+  border: #e7e7e7 1px solid;
+}
+
+.containerNewThisWeek {
+  position: absolute;
+  width: 100%;
+  height: 670px;
+}
+.containerMediano {
+  position: relative;
+  width: 881px;
+  height: 516px;
+  background-color: #f1f1f1;
+
+  margin: 77px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+.imgWeek {
+  width: 400px;
+  height: 400px;
+}
+.containerText {
+  width: 398px;
+  height: 100%;
+  margin-left: auto;
+  text-align: center;
+}
+.tittleNewWeek {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: #000;
+}
+.precioWeek {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: #000;
+  opacity: 0.5;
+}
+.parrafoWeek {
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: #000;
+  margin-top: 24px;
+}
+.parrafoWeek2 {
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: #000;
+  margin-top: 24px;
+  opacity: 0.5;
+}
+.color {
+  width: 100%;
+  height: 44px;
+}
+.colorDelProducto {
+  width: 25px;
+  height: 25px;
+}
+.ButtomWeek {
+  border: 1px solid #524f4f;
+  width: 55px;
+  height: 28px;
+  margin: 0px 16px;
+  cursor: pointer;
+}
+.butttomShop5 {
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 24px;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+}
+.BROWSE2 {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 706px;
+}
+.line2 {
+  position: absolute;
+  margin-top: 682px;
+  width: 100%;
+  height: 0;
+  border: #e7e7e7 1px solid;
+}
+.containerAccessories {
+  margin-top: 24px;
+  width: 100%;
+  height: 1022px;
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-template-rows: repeat(2, auto);
+  /* gaf: 2%; */
+  gap: 5%;
+}
+.containerTheAccsesorios {
+  width: 271px;
+  height: 383px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-right: 35px;
+  align-items: center;
+}
+.imgaccsesorio {
+  width: 100%;
+  height: 271;
+  cursor: pointer;
+}
+.DescripcionAccsesorio {
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: #000;
+}
+
+.precio {
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  opacity: 0.5;
+  color: #000;
+}
+.buttonPendants {
+  position: relative;
+  display: flex;
+  width: 189px;
+  height: 40px;
+  background-color: #000;
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 24px;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  bottom: 25px;
+}
+.vital1 {
+  display: flex;
+  width: 720px;
+  height: 379.5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+}
+.containerOtros {
+  width: 100%;
+  height: 489px;
+  justify-content: space-between;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.imgVita {
+  width: 361px;
+  height: 241px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 48px;
+}
+.LATEST {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 48px;
+}
+.VIEW {
+  position: relative;
+  display: flex;
+  width: 146px;
+  height: 40px;
+  background-color: #000;
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 24px;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-top: -161px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 592px;
+  background: #ffffff;
+  justify-content: space-between;
+  margin-top: 96px;
+}
+.an {
+  width: 310px;
+  height: 146px;
+  margin: 0px 159px;
+  margin-top: 100px;
+}
+.PrrafoAN {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: #1c1b1b;
+  margin: 29px 0px;
+
+  opacity: 0.5;
+}
+.tittleAN {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #1c1b1b;
+}
+.newsletter {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 392px;
+  margin: 0px 159px;
+  margin-top: 100px;
+  left: 370px;
+}
+.about {
+  font-family: "Inter", sans-serif;
+  color: #1c1b1b;
+
+  opacity: 0.5;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 32px;
+  margin: 24px 0px;
+}
+.SUBSCRIBE {
+  position: absolute;
+  width: 310px;
+  height: 196px;
+  margin-top: 100px;
+  left: 889px;
+}
+
+.inputandress {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(28, 27, 27, 0.5);
+  opacity: 0.5;
+  border-radius: none;
+  bottom: 25px;
+}
+.subscribete {
+  position: relative;
+  width: 115px;
+  height: 40px;
+  background-color: #000;
+  color: #ffffff;
+  font-size: 12px;
+
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  bottom: 17px;
+}
